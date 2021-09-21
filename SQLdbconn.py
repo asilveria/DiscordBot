@@ -53,6 +53,6 @@ def tableCreate():
         create_table(conn, sql_create_quotes_table)
 
     else:
-        print("Error! cannot create the database connection.")
+        print("Error! unable to establish database connection.")
 
 tableCreate()
